@@ -1,5 +1,5 @@
 # Alpine Linux Java Image #
-A trivial Dockerfile which simply installs [OpenJDK](http://openjdk.java.net/) onto a vanilla [Alpine Linux](https://alpinelinux.org/) Docker image. This would typically be used as base layer for a minimal footprint, containerised Java application.
+A trivial Dockerfile which simply installs [OpenJDK](http://openjdk.java.net/) onto a vanilla [Alpine Linux](https://alpinelinux.org/) Docker image. This would typically be used as a base layer for a minimal footprint, containerised Java application.
 
 ***
 
