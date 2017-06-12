@@ -1,12 +1,12 @@
 # Alpine Linux Java Image #
-A trivial Dockerfile which simply installs [OpenJDK](http://openjdk.java.net/) onto a vanilla [Alpine Linux](https://alpinelinux.org/) Docker image. This would typically be used as a base layer for a minimal footprint, containerised Java application.
+A trivial Dockerfile which simply installs [OpenJDK](http://openjdk.java.net/) onto a vanilla [Alpine Linux](https://alpinelinux.org/) Docker image. This would typically be used as a base layer for a minimal-footprint, containerised Java application.
 
 ***
 
 ## Install ##
 Simply clone the repository and build from the root directory, tagging as appropriate...
 
-    docker build . -t my-base-alpine-linux-image
+    docker build -t nextmetaphor/alpine-java:latest .
 
 ## Licence ##
 Licensed under the Apache License, Version 2.0 (the "License");
